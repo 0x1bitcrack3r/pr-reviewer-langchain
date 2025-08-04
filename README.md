@@ -6,7 +6,7 @@ It:
 
 - Automatically reviews code on Pull Requests
 - Posts inline and summary comments on GitHub
-- Assigns a **PR Risk Score** (0–10)
+- Assigns a **PR Risk Score** (0-10)
 - Can run from CLI, CI, or as an API service
 
 ---
@@ -33,9 +33,10 @@ pip install -r requirements.txt
 ```
 
 ## 🔐 Environment Variables (.env)
-
+```bash
 OPENAI*API_KEY=sk-...
 GITHUB_TOKEN=ghp*...
+```
 
 ## 🔧 Run via CLI
 
@@ -62,5 +63,5 @@ POST /review
 
 - ✅ Good use of memoization.
 - ❗ Avoid inline styles in JSX. Consider CSS Modules or styled-components.
-- ⚠️ Prop drilling detected — consider Context API.
+- ⚠️ Prop drilling detected, consider Context API.
 - 🧮 **PR Risk Score**: `7/10` (High Risk)
